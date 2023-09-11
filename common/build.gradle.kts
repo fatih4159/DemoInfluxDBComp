@@ -20,6 +20,7 @@ kotlin {
                 api(compose.runtime)
                 api(compose.foundation)
                 api(compose.material)
+                implementation("com.influxdb:influxdb-client-kotlin:6.6.0")
             }
         }
         val commonTest by getting {
